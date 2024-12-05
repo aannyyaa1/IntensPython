@@ -7,7 +7,7 @@ int main() {
     float a,b,c,S,p,r,R;
     printf("Программа вычисления r и R треугольника по заданным параметрам\n");
     printf("Введите  стороны треугольника a, b и c и площадь S\n");
-    scanf("%f%f%f%f",&a,&b,&c,&S);
+    scanf("%f %f %f %f",&a,&b,&c,&S);
     r = S/((a+b+c)/2);
     R = (a*b*c)/(4*S);
     printf("r = %6.2f\n",r);
